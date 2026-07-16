@@ -3,7 +3,11 @@
 Run the real NASA/IBM **Prithvi WxC 2.3B** weather foundation model on a free/Pro Colab GPU,
 as part of the *ExtremeCast* subseasonal heatwave/coldwave forecasting project.
 
+**Notebook 1 — Run Prithvi (inference):**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SubbSE/extremeweather/blob/main/Prithvi_WxC_Colab.ipynb)
+
+**Notebook 2 — Fine-tune on partial MERRA-2 (max-effort, resumable):**
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SubbSE/extremeweather/blob/main/Prithvi_WxC_Finetune_Colab.ipynb)
 
 ## What the notebook does
 1. Checks the Colab GPU (A100/L4/T4; auto-enables gradient checkpointing on <20 GB cards).
